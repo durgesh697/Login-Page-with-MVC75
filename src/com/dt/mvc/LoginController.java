@@ -33,8 +33,8 @@ public class LoginController {
 		String pw = user.getPassword();
 		System.out.println(un);
 		System.out.println(pw);
-
-		if (!un.equals(pw)) {
+	System.out.println("DONE");
+	if (!un.equals(pw)) {
 			return "login";
 
 		}
